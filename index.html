@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanti | E-commerce</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="topbar">
+        <p>Ganhe <strong>R$10,00</strong> de desconto no seu primeiro pedido. Utilize o cupom <strong>DESCONTO10</strong></p>
+    </div>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>AVANTI</h1> 
+            </div>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Digite aqui o que você procura">
+                    <button type="button" id="searchBtn" aria-label="Buscar"><i class="ph ph-magnifying-glass"></i></button>
+                </div>
+                <div id="searchFeedback" class="search-feedback"></div>
+            </div>
+
+            <div class="user-actions">
+                <a href="#" class="account">
+                    <i class="ph ph-user"></i>
+                    <span>Olá,<br><strong>Nome cliente!</strong></span>
+                </a>
+                <a href="#" class="cart">
+                    <i class="ph ph-shopping-cart"></i>
+                    <span class="cart-badge">2</span>
+                </a>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <div class="container">
+                <ul>
+                    <li class="all-categories"><i class="ph ph-list"></i> Todas as Categorias</li>
+                    <li><a href="#">Departamento</a></li>
+                    <li><a href="#">Departamento</a></li>
+                    <li><a href="#">Departamento</a></li>
+                    <li><a href="#">Departamento</a></li>
+                    <li><a href="#">Departamento</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <div class="container product-img-wrapper">
+                <h2>Entre em contato conosco e verifique a disponibilidade para sua região!</h2>
+                <img src="./assets/img/Frame 23831.png" alt="Banner de Promoção">
+            </div>
+        </section>
+
+        <section class="products-showcase container">
+            <div class="section-header">
+                <h2>Lançamentos</h2>
+                <a href="#" class="see-more">Ver mais</a>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <span class="badge">NOVO</span>
+                            <div class="product-img-wrapper">
+                                <!-- COLE O LINK DA SUA IMAGEM NO ATRIBUTO src ABAIXO -->
+                                <img src="./assets/img/2j0a2073 1.png" alt="Camiseta Branca Avanti">
+                            </div>
+                            <div class="product-info">
+                                <h3>Camiseta Lorem Ipsum Dolor Sit Amet Consectetur</h3>
+                                <p class="old-price">R$ 100,00</p>
+                                <div class="price-container">
+                                    <span class="price">R$ 79,90</span>
+                                </div>
+                                <p class="installments">Ou em até 10x de R$ 7,90</p>
+                                <button class="btn-buy">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PRODUTO 2 -->
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <span class="badge">NOVO</span>
+                            <div class="product-img-wrapper">
+                                <img src="./assets/img/2j0a2073 1-1.png" alt="Camiseta Branca Plus Avanti">
+                            </div>
+                            <div class="product-info">
+                                <h3>Camiseta Lorem Ipsum Dolor Sit Amet Consectetur</h3>
+                                <p class="old-price">R$ 100,00</p>
+                                <div class="price-container">
+                                    <span class="price">R$ 79,90</span>
+                                    <span class="discount-tag">10% OFF</span>
+                                </div>
+                                <p class="installments">Ou em até 10x de R$ 7,90</p>
+                                <button class="btn-buy">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <span class="badge">NOVO</span>
+                            <div class="product-img-wrapper">
+
+                                <img src="./assets/img/2j0a2073 1-2.png" alt="Camiseta Branca Poliester Avanti">
+                            </div>
+                            <div class="product-info">
+                                <h3>Camiseta Lorem Ipsum Dolor Sit Amet</h3>
+                                <p class="old-price">R$ 100,00</p>
+                                <div class="price-container">
+                                    <span class="price">R$ 79,90</span>
+                                </div>
+                                <p class="installments">Ou em até 10x de R$ 7,90</p>
+                                <button class="btn-buy">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="product-card">
+                            <span class="badge">NOVO</span>
+                            <div class="product-img-wrapper">
+                                <img src="./assets/img/2j0a2073 1.png" alt="Camieta Branca Algodão Avanti">
+                            </div>
+                            <div class="product-info">
+                                <h3>Camiseta Lorem Ipsum Dolor Sit Amet</h3>
+                                <p class="old-price">R$ 100,00</p>
+                                <div class="price-container">
+                                    <span class="price">R$ 79,90</span>
+                                    <span class="discount-tag">10% OFF</span>
+                                </div>
+                                <p class="installments">Ou em até 10x de R$ 7,90</p>
+                                <button class="btn-buy">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="supersale container">
+            <div class="sale-banner">
+                <div class="sale-text">
+                    <h2>SUPERSALE</h2>
+                    <p>ITENS SELECIONADOS COM ATÉ</p>
+                    <span class="highlight-sale">50% OFF</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container newsletter-content">
+                <h3>Cadastre-se na nossa newsletter</h3>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="text" placeholder="Digite seu nome" required>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="privacy" required>
+                        <label for="privacy">Estou de acordo com a Política de Privacidade</label>
+                    </div>
+                    <button type="submit" class="btn-newsletter">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>AVANTI</h2>
+                <div class="socials">
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-youtube-logo"></i></a>
+                    <a href="#"><i class="ph ph-tiktok-logo"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Nossas Lojas</a></li>
+                    <li><a href="#">Privacidade e Segurança</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Central de Ajuda</h4>
+                <ul>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Frete e Entrega</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Formas de Pagamento</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Atendimento</h4>
+                <p><i class="ph ph-phone"></i> (00) 1234-5678</p>
+                <p><i class="ph ph-envelope"></i> email.exemplo@exemplo.com.br</p>
+                <p><i class="ph ph-clock"></i> <strong>Horário de atendimento:</strong><br>
+                Segunda a Sábado: 07h00 às 23h00<br>
+                Domingos e Feriados: 07h00 às 21h00</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
